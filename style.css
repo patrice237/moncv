@@ -183,7 +183,6 @@ padding: 0.5rem;
     left: 50%; /* Centre le texte horizontalement */
     transform: translate(-50%, -50%);
     font-family:'Times', serif;
-
 }
 
 .img-thumbnail.bgpic {
@@ -191,9 +190,18 @@ padding: 0.5rem;
 }
 .image-container {
     position: relative;
-    text-align: center; /* Centre le texte horizontalement */
-    
+    text-align: center; /* Centre le texte horizontalement */ 
 }
+
+.container-pic{
+    max-width: 600px;
+    margin: 0 auto;
+    padding:0 ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px white;
+    text-align: center;
+}
+
 .img{
     width: 200px;
     height: 250px;
@@ -201,16 +209,10 @@ padding: 0.5rem;
     border-radius: 80%;
     float: left;
     shape-outside: margin-box;
-    margin: 0 20px 5px 0;
+    padding-left: 0%;
 
 }
-.container-pic{
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px white;
-}
+
 
 .container-pic p{
     line-height: 1,4;

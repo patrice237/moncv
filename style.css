@@ -1,0 +1,208 @@
+
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+.nav-link{
+
+
+}  
+  
+  .navbar-toggler{
+    border-color: white;
+
+  }
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .nav-link{
+    font-weight: 50%;
+    position: relative;
+  }
+  .nav-link:hover, .navbar-link:active{
+    color: white ;
+     
+  }
+
+  .navbar{
+height: 80px;    
+margin: 20px;
+border-radius: 16px;
+padding: 0.5rem;
+
+
+  }
+
+  .nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: white;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+
+  }
+
+  .nav-link:hover::before{
+    width: 100%;
+    visibility: visible;
+  }
+
+  .nav-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .bgpic{
+    background-color: url(bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .text-above-image {
+    text-align: center;
+    color: black;
+    margin-bottom: 0; /* Réduit l'espace entre le texte et ce qui suit */
+    position: absolute;
+    top: 50%; /* Centre le texte verticalement */
+    left: 50%; /* Centre le texte horizontalement */
+    transform: translate(-50%, -50%); /* Ajustement fin pour le centrage parfait */S
+}
+
+.img-thumbnail.bgpic {
+    margin-top: 10px; /* Ajoute un peu d'espace au-dessus de l'image si nécessaire */
+}
+.image-container {
+    position: relative;
+    text-align: center; /* Centre le texte horizontalement */
+    
+}
+.img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 80%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+
+}
+.container-pic{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px white;
+}
+
+.container-pic p{
+    line-height: 1,4;
+
+}
+
+  

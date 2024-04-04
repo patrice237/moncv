@@ -222,6 +222,9 @@ padding: 0.5rem;
 
 footer{
     padding-top: 50px;
+    flex-wrap: wrap; /* Permet aux éléments de s'enrouler sur des lignes supplémentaires */
+    justify-content: space-between; /* Répartit les éléments horizontalement */
+
 }
 .footer{
     width: 33,3%;
@@ -308,14 +311,3 @@ footer a{
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
-    .footer {
-        flex-direction: column; /* Affiche les éléments en colonne sur les écrans plus petits */
-    }
-
-    .footer-content {
-        max-width: 100%; /* Permet aux éléments de s'étendre sur toute la largeur de l'écran */
-    }
-}
-
-  

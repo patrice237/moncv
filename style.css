@@ -174,6 +174,18 @@ padding: 0.5rem;
     transform: translate(-50%, -50%); /* Ajustement fin pour le centrage parfait */S
 }
 
+.text-presentation{
+    text-align: center;
+    color: black;
+    margin-bottom: 0; /* Réduit l'espace entre le texte et ce qui suit */
+    position: absolute;
+    top: 30%; /* Centre le texte verticalement */
+    left: 50%; /* Centre le texte horizontalement */
+    transform: translate(-50%, -50%);
+    font-family:'Times', serif;
+
+}
+
 .img-thumbnail.bgpic {
     margin-top: 10px; /* Ajoute un peu d'espace au-dessus de l'image si nécessaire */
 }
